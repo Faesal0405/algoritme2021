@@ -3,6 +3,7 @@ package algoritme1;
 public class HelloWorld {
     public static void main(String[] args) {
         int[] array = {1, 29, 99, 88, 44, 55, 8, 5, 6};
+         System.out.println("finner støste tall");
 
         int maksverdi = array[0];
         for (int i = 0; i < 9; ++i) {
@@ -13,6 +14,12 @@ public class HelloWorld {
 
         }
         System.out.println(maksverdi);
+
+        System.out.println("teller opp til 10");
+
+        for (int i=1; i<=10; ++i){
+            System.out.println(i);
+        }
 
     }
 }
