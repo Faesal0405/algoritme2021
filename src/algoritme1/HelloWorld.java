@@ -7,7 +7,7 @@ public class HelloWorld {
 
         int maksverdi = array[0];
         for (int i = 0; i < 9; ++i) {
-            int verdi = array[i];
+           int verdi = array[i];
             if (verdi > maksverdi) {
                 maksverdi = verdi;
             }
@@ -15,12 +15,13 @@ public class HelloWorld {
         }
         System.out.println(maksverdi);
 
-        System.out.println("teller opp til 10");
+        System.out.println("faesal teller opp til 15");
 
-        for (int i=1; i<=10; ++i){
-            System.out.println(i);
+        for (int i=1; i<=15; ++i){
+            System.out.println("faesal sier "+ i);
         }
 
     }
+            
 }
 
