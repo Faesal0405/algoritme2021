@@ -15,10 +15,10 @@ public class HelloWorld {
         }
         System.out.println(maksverdi);
 
-        System.out.println("teller opp til 10");
+        System.out.println("zeid teller opp til 35");
 
-        for (int i=1; i<=10; ++i){
-            System.out.println(i);
+        for (int i=1; i<=35; ++i){
+            System.out.println("zeid sier " + i);
         }
 
     }
