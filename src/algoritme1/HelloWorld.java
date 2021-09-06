@@ -17,7 +17,7 @@ public class HelloWorld {
 
         System.out.println("zeid teller opp til 50");
 
-        for (int i=1; i<50; ++i){
+        for (int i=1; i<=50; ++i){
             System.out.println("zeid sier " + i);
         }
 
